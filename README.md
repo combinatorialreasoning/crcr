@@ -6,7 +6,7 @@ This was tested with python 3.10.
 Install the requirements by running `pip install -r requirements.txt`.
 
 ## Download or generate the dataset
-For the Sokoban dataset, download the dataset and eval boards from the [https://drive.google.com/drive/folders/1vdadRzrlxbHs_O6BkznCmrUehDkzgsOo?usp=sharing]{drive}:
+For the Sokoban dataset, download the dataset and eval boards from the [drive](https://drive.google.com/drive/folders/1vdadRzrlxbHs_O6BkznCmrUehDkzgsOo?usp=sharing):
 
 The datasets for other environments are generated:
 For the Rubik's cube run:
