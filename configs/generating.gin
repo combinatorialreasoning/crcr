@@ -1,0 +1,10 @@
+JobSolveRubik.solver_class = @BestFSSolverRubik
+JobSolveRubik.n_jobs = 100
+JobSolveRubik.n_parallel_workers = 2
+JobSolveRubik.batch_size = 30
+JobSolveRubik.budget_checkpoints = [50, 100, 500, 1000]
+
+BestFSSolverRubik.goal_builder_class = @VanillaPolicyRubik
+BestFSSolverRubik.max_tree_size = 1000
+BestFSSolverRubik.max_tree_depth = 100
+make_RubikEnv.shuffles = 8
